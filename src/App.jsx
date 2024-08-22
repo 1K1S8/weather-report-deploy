@@ -204,9 +204,7 @@ export const App = () => {
     },
   };
 
-
   
-
   return (
     <div className="App">
       <div className="dataCard temperature">
@@ -219,7 +217,7 @@ export const App = () => {
         <Bar data={barData3} options={barOptions3} />
       </div>
     </div>
-    
-
   );
 };
+
+

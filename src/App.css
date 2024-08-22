@@ -21,14 +21,14 @@
 .temperature {
   width: 100%;
   height: 20rem; /* Increase the height to make the chart bigger */
-}
+  }
 
 .temperature2 {
-  width: 50%;
+  width: 45%; 
   height: 20rem;
 }
 
 .temperature3 {
-  width: 40%;
+  width: 45%;
   height: 20rem;
 }
