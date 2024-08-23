@@ -38,11 +38,11 @@ export const App = () => {
     plugins: {
       title: {
         display: true,
-        text: "2024-08-01 Weather Report",
+        text: "Weather Report - 2024-08-01",
         align: "start",
         font: {
           size: 20,
-          color: "black",
+          color: "white",
         },
       },
       legend: {
@@ -89,6 +89,10 @@ export const App = () => {
       title: {
         display: true,
         text: titleText,
+        font: {
+          size: 20,
+          color: "white",
+        },
       },
     },
     scales: {
