@@ -25,7 +25,7 @@ export const App = () => {
   const lineData = {
     labels: temperatureData.map((data) => data.hour),
     datasets: [
-      generateDatasets({ label: "Temperature", values: temperatureData.map((data) => data.temperature) }, "#FF3030"),
+      generateDatasets({ label: "Temperature", values: temperatureData.map((data) => data.temperature) }, "#8B0000"),
       generateDatasets({ label: "Humidity", values: temperatureData.map((data) => data.humidity) }, "#064FF0"),
       generateDatasets({ label: "Wind Speed", values: temperatureData.map((data) => data.wind_speed) }, "#00FF00"),
       generateDatasets({ label: "Precipitation", values: temperatureData.map((data) => data.precipitation) }, "#FFFF00"),
